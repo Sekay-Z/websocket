@@ -1,0 +1,14 @@
+server:
+    port: 8080
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/websocket?serverTimezone=Asia/Shanghai
+    username: root
+    password: shukai1415
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: websocket
+
